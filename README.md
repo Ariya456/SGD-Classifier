@@ -15,11 +15,11 @@ Step 3:Train the Model Using Stochastic Gradient Descent (SGD)
 
 Step 4:Make Predictions and Evaluate Accuracy
 ## Program:
-```
-/*
 Program to implement the prediction of iris species using SGD Classifier.
 Developed by: Ariya Viniya.G
 RegisterNumber: 212223080005
+```
+/*
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
@@ -42,7 +42,6 @@ print(f"Accuracy: {accuracy:.3f}")
 cm = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
 print(cm)
-
 */
 ```
 
